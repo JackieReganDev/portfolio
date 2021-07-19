@@ -3257,6 +3257,11 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
+		/* main pic */
+		.image.avatar img {
+			display: none;
+		}
+
 		/* Header */
 
 			#header {
