@@ -30,13 +30,60 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
+	color:rgba(255, 255, 255, 0.4) !important;
 	line-height: 1;
 }
 
 ol, ul {
 	list-style: none;
 }
-
+li{
+float: left;
+list-style-type: none;
+margin-right: 1em;
+margin-bottom: 2em;
+}
+#skills .container{
+	height: 220px;;
+	width: 100%;
+}
+#skills h2{
+	padding-bottom: 1.5em;
+	margin-left: 1em;
+}
+.btn.third{
+	-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		background-color: transparent;
+		border-radius: 0.35em;
+		border: solid 3px #c506f5;
+		color: #c506f5 !important;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 400;
+		height: 3.5em;
+		height: calc(2.75em + 6px);
+		line-height: 2.75em;
+		min-width: 11em;
+		margin: 0 auto;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+	
+}
+.btn.third:hover {
+	border-color: #FE07EB;
+	color: #FE07EB !important;
+}
+#introPara{
+	color:black !important;
+}
 blockquote, q {
 	quotes: none;
 }
@@ -73,7 +120,9 @@ input, select, textarea {
 }
 
 /* Basic */
-
+#two{
+	height: 1050px;
+}
 	html {
 		box-sizing: border-box;
 	}
@@ -111,13 +160,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #c506f5;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color:#FE07EB !important;
 			text-decoration: none;
 		}
 
@@ -250,12 +299,14 @@ input, select, textarea {
 	margin: 0 auto;
 	padding-bottom: 50px;
 }
+
 .husbandAndWife{
-	height: 300px;
+	height: 360px;
 	width: 100%;
+	padding-bottom: 40px;
 }
 .secondHeader{
-	color: #403c32;
+	color: #FE07EB;
 	text-align: center;
 }
 .paragraphOneAbout{
@@ -2196,7 +2247,10 @@ input, select, textarea {
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			display: block;
+			margin: 0 auto;
+			padding: 0 2.4em;
+		
 		}
 
 		ul.alt {
@@ -2494,10 +2548,10 @@ input, select, textarea {
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
-		.button:hover {
+		:hover {
 			border-color: #FE07EB;
 			color: #FE07EB !important;
-		}
+		}.button
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
@@ -3052,19 +3106,22 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		/* Header */
-
+	
 			#header {
+				background-size: contain;
+				background-repeat: no-repeat;
 				padding: 6em 3em 3em 3em;
 				width: 100%;
 			}
 
 				#header h1 {
+					text-align: left;
 					font-size: 1.25em;
 				}
 
-					#header h1 br {
+					/* #header h1 {
 						display: none;
-					}
+					} */
 
 				#header > .inner {
 					margin-bottom: 0;
@@ -3098,6 +3155,10 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		/* Basic */
+		.image.avatar img{
+			display: none;
+
+		}
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 				display: none;
@@ -3112,20 +3173,22 @@ input, select, textarea {
 		/* Header */
 
 			#header {
+				display: none;
 				background-attachment: scroll;
-				background-position: top left, center center;
-				background-size: auto,		cover;
-				left: auto;
-				padding: 6em 4em;
-				position: relative;
-				text-align: center;
+				/* background-position: top left, center center; */
+				background-size: contain;
+				background-repeat: no-repeat;
+				padding-left: 10px;
+				/* padding: 6em 4em; */
+				text-align: left;
 				top: auto;
 				width: 100%;
-				display: block;
 			}
 
+		
 				#header h1 {
-					font-size: 1.75em;
+					
+					font-size: 1em;
 				}
 
 					#header h1 br {
@@ -3214,14 +3277,18 @@ input, select, textarea {
 				}
 
 		/* Header */
+		.image.avatar img{
+			display: none;
+		}
+
 
 			#header {
-				background-size: cover;
+			
 				padding: 2.25em 1.5em;
 			}
 
 				#header h1 {
-					font-size: 1.35em;
+					font-size: 1em;
 				}
 
 		/* Footer */
@@ -3266,12 +3333,13 @@ input, select, textarea {
 		/* Header */
 
 			#header {
+				display: none;
 				padding: 4.5em 1.5em;
 			}
-
-				#header h1 br {
+/* 
+			#header h1 {
 					display: none;
-				}
+				} */
 
 		/* Footer */
 
