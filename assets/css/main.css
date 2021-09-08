@@ -2675,7 +2675,7 @@ input, select, textarea {
 		#header h1 {
 	width: 100%;
 	font-size: 5rem;
-	font-weight:  100;
+	font-weight:  bolder;
 	letter-spacing: 2px;
 	color: #f35626;
 	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
@@ -2683,7 +2683,7 @@ input, select, textarea {
 	-webkit-text-fill-color: transparent;
 	-webkit-animation: hue 10s infinite linear;
 			color: #403c32;
-			font-size: 1.35em;
+			font-size: 1.75em;
 			line-height: 1.75em;
 			margin: 0;
 		}
