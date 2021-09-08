@@ -244,15 +244,15 @@ input, select, textarea {
 /* Container */
 
 .aboutMeImage{
-	height: 300px;
-	width: 300px;
+	height: 350px;
+	width: 27%;
 	display: block;
 	margin: 0 auto;
+	padding-bottom: 50px;
 }
 .husbandAndWife{
-	height: 250px;
-	width: 250px;
-	border-radius: 50%;
+	height: 300px;
+	width: 100%;
 }
 .secondHeader{
 	color: #403c32;
@@ -2111,7 +2111,7 @@ input, select, textarea {
 				font-weight: 400;
 				left: 50%;
 				line-height: 2.25em;
-				margin: -1.25em 0 0 -3em;
+				/* margin: -1.25em 0 0 -3em; */
 				opacity: 0;
 				padding: 0 1.5em;
 				position: absolute;
@@ -2150,7 +2150,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 0 0;
 			width: 100%;
 		}
 
@@ -2171,7 +2171,7 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				margin-top: 35%;
+			
 				border-radius: 50%;
 				width: 100%;
 				
@@ -2495,8 +2495,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #FE07EB;
+			color: #FE07EB !important;
 		}
 
 		input[type="submit"]:active,
@@ -2504,8 +2504,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #FE07EB;
+			color: #FE07EB !important;
 		}
 
 		input[type="submit"].icon,
@@ -2622,11 +2622,11 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		/* background-color: #1f1815; */
 		background-attachment: scroll,								scroll;
-		background-image: url(images/backgroundimage.png);
+		background-image: url(Images/backgroundimage.jpg) !important;
 		background-repeat: no-repeat;
-		background-size: contain    120%;
+		background-size: cover;
 		background-clip: padding-box;
 		color: #403c32;
 		height: 100%;
