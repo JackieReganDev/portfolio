@@ -1,2 +1,2 @@
 # My Portfolio
-	- Check out the live version here! https://www.jackieregandev.net/
+   Check out the live version [here!](https://jackieregandev.net)
