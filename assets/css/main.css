@@ -1598,6 +1598,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			#skills .container{
+				display: none;
+
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -3326,15 +3330,21 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 
 		/* main pic */
-		.image.avatar img {
+		a.image.avatar {
 			display: none;
 		}
 
+		zebra{
+			width: 100%;
+		}
+		.innerPara{
+			width: 70%;
+		}
 		/* Header */
 
 			#header {
 				display: none;
-				padding: 4.5em 1.5em;
+				/* padding: 4.5em 1.5em; */
 			}
 /* 
 			#header h1 {
