@@ -30,7 +30,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	color: #5afc7d; !important;
 	line-height: 1;
 }
 
@@ -81,9 +80,7 @@ margin-bottom: 2em;
 	border-color: #FE07EB;
 	color: #FE07EB !important;
 }
-#introPara{
-	color: #5afc7d; !important;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -1945,6 +1942,7 @@ body{
 		background-repeat: no-repeat;
 		background-position: calc(100% - 1rem) center;
 		height: 2.75em;
+		object-fit: contain;
 		padding-right: 2.75em;
 		text-overflow: ellipsis;
 	}
@@ -2227,6 +2225,7 @@ body{
 			border-radius: 50%;
 			float: right;
 			margin-left: 50px;
+			object-fit: contain;
 		}
 
 			.image.avatar:before {
@@ -2234,7 +2233,7 @@ body{
 			}
 
 			.image.avatar img {
-			
+				object-fit: contain;
 				border-radius: 50%;
 				width: 100%;
 				
