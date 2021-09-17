@@ -2220,8 +2220,8 @@ body{
 			}
 
 		.image.avatar {
-			height: 300px;
-			width: 24%;
+			height: 500px;
+			width: 60%;
 			border-radius: 50%;
 			float: right;
 			margin-left: 50px;
@@ -2234,7 +2234,6 @@ body{
 
 			.image.avatar img {
 				object-fit: contain;
-				border-radius: 50%;
 				width: 100%;
 				
 			}
